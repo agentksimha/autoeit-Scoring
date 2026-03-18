@@ -24,7 +24,7 @@ The approach combines three complementary similarity features — WER, semantic 
 
 **Why these three features:**
 
-- **WER** is the most empirically validated metric for automated EIT scoring. McGuire & Larson-Hall (2024) demonstrated that WER-based automated scoring achieves close agreement with experienced human raters on Spanish EIT data.
+- **WER** WER-based automated scoring has been shown to closely align with experienced human raters on elicited imitation tasks. McGuire & Larson-Hall (2025) demonstrated that, using ASR systems like Whisper, WER scores correlate highly with human scores, supporting its use as a reliable automated scoring metric.
 - **Semantic similarity** addresses the core 2/3 boundary in the Ortega rubric — distinguishing grammatical changes that do and do not affect meaning. Multilingual sentence embeddings (`paraphrase-multilingual-MiniLM-L12-v2`) capture this distinction language-agnostically without requiring Spanish-specific NLP resources.
 - **Length ratio** provides an explicit completeness penalty consistent with all EIT rubric variants. A response with significantly fewer words than the stimulus is necessarily incomplete regardless of word accuracy.
 
