@@ -101,10 +101,10 @@ pip install jiwer sentence-transformers pandas numpy seaborn matplotlib
 | Column | Description |
 |---|---|
 | `Score_0_4` | Ordinal sentence score (0–4, Ortega rubric) |
-| `Composite` | Raw composite score (0–1, before bucketing) |
-| `WER_Similarity` | WER-based similarity (0–1) |
-| `Semantic_Similarity` | Embedding cosine similarity (0–1) |
-| `Length_Ratio` | Response completeness ratio (0–1) |
+| `Transcription rater 1` |Participant's transcribed response |
+| `Stimulus` |Target sentence presented to participant |
+| `Sentence` | Sentence number (1–30)  |
+
 
 ---
 
