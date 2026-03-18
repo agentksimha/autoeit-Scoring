@@ -86,7 +86,7 @@ pip install jiwer sentence-transformers pandas numpy seaborn matplotlib
 
 1. Update `INPUT_PATH` in Cell 3 to point to your transcriptions CSV.
 2. Run all cells in order.
-3. Scored output is saved to `autoeit_scored_output.csv`.
+3. Scored output is saved to `autoeit_scores.csv`.
 
 ### Expected CSV format
 
@@ -110,7 +110,7 @@ pip install jiwer sentence-transformers pandas numpy seaborn matplotlib
 
 ## Validation
 
-The pipeline includes 8 validation cases drawn from the Ortega (2000) rubric and protocol documentation. Expected vs. predicted scores are printed at runtime. Target: ≥ 80% exact agreement on known rubric examples.
+The pipeline includes 8 validation cases drawn from the Ortega (2000) rubric and protocol documentation. Expected vs. predicted scores are printed at runtime. Target: ≥ 90% exact agreement on known rubric examples.
 
 ---
 
