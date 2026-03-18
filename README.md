@@ -40,13 +40,13 @@ Features are combined using **plain mean (equal weighting)**. This is the most t
 
 The continuous composite (0–1) is mapped to the Ortega rubric scale:
 
-| Composite Range | Score | Rubric Interpretation |
+| Composite Range | Score | Interpretation |
 |---|---|---|
-| Garbled / empty response | 0 | No response or entirely unintelligible |
-| 0.00 – 0.25 | 1 | Minimal repetition, item abandoned |
-| 0.25 – 0.55 | 2 | ~Half idea units preserved; meaning incomplete |
-| 0.55 – 0.85 | 3 | Full meaning preserved (may be ungrammatical) |
-| 0.85 – 1.00 | 4 | Exact or near-exact repetition |
+| Garbled / empty response | 0 | No scoreable content — silence, placeholders, or entirely unintelligible output |
+| 0.00 – 0.25 | 1 | Near-complete breakdown — only isolated words or fragments recovered |
+| 0.25 – 0.55 | 2 | Partial recovery — some content reproduced but meaning altered or lost |
+| 0.55 – 0.85 | 3 | Successful reproduction — meaning intact despite grammatical variation |
+| 0.85 – 1.00 | 4 | High-fidelity reproduction — form and meaning both preserved |
 
 Thresholds are grounded in rubric definitions. Per the protocol ("when in doubt, score 2"), the 2/3 boundary is set conservatively at 0.55. Thresholds can be refined via regression calibration once human rater scores are available.
 
