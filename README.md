@@ -120,8 +120,7 @@ The pipeline includes 8 validation cases drawn from the Ortega (2000) rubric and
 |---|---|
 | No ground truth labels available | Calibrate bucket thresholds and feature weights via regression once human rater scores are available |
 | Equal weighting is a baseline assumption | Optimise weights against human rater scores; report Cohen's κ or Pearson r |
-| Semantic model not fine-tuned on learner Spanish | Fine-tune on L2 Spanish EIT data if available; evaluate against language-specific models |
-| Bucket thresholds are rubric-derived, not empirically fitted | Fit thresholds to maximise agreement with human raters on a held-out validation set |
+| Bucket thresholds are rubric-derived, not empirically fitted |Phase 2 calibration (in Proposal) replaces rubric-derived thresholds (0.25 / 0.55 / 0.85) with learned decision boundaries via ordinal regression (mord LogisticIT); ridge regression is run as a secondary experiment optimising threshold placement on the 0–120 scale |
 
 ---
 
