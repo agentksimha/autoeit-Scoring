@@ -30,7 +30,7 @@ The approach combines three complementary similarity features — WER, semantic 
 
 **Why LCS was not included:**
 
-LCS similarity and WER showed r = 0.97 correlation in feature analysis, confirming they measure the same dimension. Retaining both would double-weight word-order/lexical overlap and undermine the equal-weighting rationale.WER is retained as a well-validated metric for automated EIT scoring, with prior work showing strong agreement with human raters; LCS is excluded.
+LCS(Longest Common Sequence) similarity and WER showed r = 0.97 correlation in feature analysis, confirming they measure the same dimension. Retaining both would double-weight word-order/lexical overlap and undermine the equal-weighting rationale.WER is retained as a well-validated metric for automated EIT scoring, with prior work showing strong agreement with human raters; LCS is excluded.
 
 ### Aggregation
 
