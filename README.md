@@ -110,7 +110,7 @@ pip install jiwer sentence-transformers pandas numpy seaborn matplotlib
 
 ## Validation
 
-The pipeline includes 8 validation cases drawn from the Ortega (2000) rubric and protocol documentation.4/8 exact agreement in the Pipeline is a point estimate on n=8 — the 95% Wilson confidence interval spans 22%–78%, computed as proportion_confint(4, 8, method='wilson'), confirming only that errors are systematic and rubric-interpretable, not that the baseline achieves any particular accuracy. Expected vs. predicted scores are printed at runtime. Target: ≥ 90% exact agreement on known rubric examples.. Wilson interval used instead of Wald because Wald coverage degrades at small n; Wilson maintains nominal 95% coverage more reliably
+The pipeline includes 8 validation cases drawn from the Ortega (2000) rubric and protocol documentation.4/8 exact agreement in the Pipeline is a point estimate on n=8 — the 95% Wilson confidence interval spans 22%–78%, computed as proportion_confint(4, 8, method='wilson'), confirming only that errors are systematic and rubric-interpretable, not that the baseline achieves any particular accuracy. Expected vs. predicted scores are printed at runtime. Target: ≥ 90% exact agreement on known rubric examples. Wilson interval used instead of Wald because Wald coverage degrades at small n; Wilson maintains nominal 95% coverage more reliably
 
 ---
 
